@@ -1,12 +1,9 @@
-module.exports = {
-    entry: './src/index.js',
-    output: {
-        filename: 'app.js'
-    },
-    module: {
-        loaders: [
-            { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
-            { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
-        ]
-    }
-}
+var config = {
+  entry: './src/Index.js',
+  output: {
+    path: './',
+    filename: 'app.js'
+  }
+};
+
+module.exports = config;
