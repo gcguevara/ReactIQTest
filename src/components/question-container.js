@@ -15,7 +15,7 @@ export default class QuestionContainer extends Component {
     render(){
         return (
                 <div className="col-md-9 text-center">
-                    <h1>IQ Test</h1>
+                    <h1>Hello Garrett</h1>
                     <ul>
                         <Question />
                     </ul>
