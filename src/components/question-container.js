@@ -9,7 +9,7 @@ export default class QuestionContainer extends Component {
         this.state = {
 
             // Holds the answers for submission
-            answers = []
+            answers: []
         };
     }
     render(){
